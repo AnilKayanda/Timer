@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background: url(black-1072366_1280.jpg) no-repeat center;
+    background-size: cover;
+}
+.container_sm{
+    position: relative;
+    top: 150px;
+    margin: auto;
+    height: 250px;
+    min-width: 400px;
+    max-width: 1100px;
+   display: flex;
+}
+
+
+#Day{
+    border: solid black 4px;
+    height: 250px;
+    position: relative;
+    width: 30%;
+    border-radius: 100%; 
+    margin-left: 20px;
+    background-color: transparent ;
+    text-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px black;
+}
+
+
+
+
+#Hour{
+       border: solid black 4px;
+       height: 250px;
+       position: relative;
+       width: 30%;
+       border-radius: 100%;   
+       margin-left: 20px;
+       background-color: transparent ;
+       text-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px black;
+
+
+}
+
+
+#Minute{
+    border: solid black 4px;
+    height: 250px;
+    position: relative;
+    width: 30%;
+    border-radius: 100%;
+   margin-left: 20px;
+   background-color: transparent ;
+   text-shadow: 10px 10px 10px black;
+   box-shadow: 10px 10px 10px black;
+
+}
+
+
+#Second{
+    border: solid black 4px;
+    height: 250px;
+    position: relative;
+    width: 30%;
+    border-radius: 100%; 
+   margin-left: 20px;
+   background-color: transparent ;
+   text-shadow: 10px 10px 10px black;
+   box-shadow: 10px 10px 10px black;
+
+}
+
+#day , #hour,#minute,#second{
+   font-size: 50px;
+   position: relative;
+   display: flex;
+  justify-content: center;
+  top: 30%;
+  color: white;
+
+}
